@@ -11,7 +11,7 @@ import MyComponent from './component.js';
 import ReactDOM from 'react-dom';
 
 
-ReactDOM.render(<MyComponent name="Handsome"/>, document.getElementById('mount-point'));
+ReactDOM.render(<MyComponent message="Yo" name="Handsome"/>, document.getElementById('mount-point'));
 
 
 
