@@ -6,7 +6,7 @@
   "scripts": {
     "build-test": "babel",
     "build2": "set NODE_ENV=production && webpack -p",
-    "start": "node_modules/.bin/webpack-dev-server --inline --content-base ./dist/",
+    "start": "node_modules/.bin/webpack-dev-server",
     "test": "mocha --compilers js:babel-register ./src/**/*.spec.js"
   },
   "repository": {

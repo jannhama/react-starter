@@ -22,7 +22,7 @@ export default class MyComponent extends Component {
 
     render() {
         return (
-            <h1>{this.props.message}, {this.props.name}!</h1>
+            <h1>{this.props.message}, {this.props.name}!!!!</h1>
         );
 
     }

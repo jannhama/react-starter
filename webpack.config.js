@@ -47,7 +47,8 @@ let webpackConf = {
     ],
     devServer: {
         hot: true,
-        contentBase: '/dist'
+        contentBase: './dist',
+        inline: true
     }
 
 };
