@@ -38,6 +38,7 @@ var webpackConf = {
         path: path.join(__dirname, 'dist'),
         filename: 'app.bundle.js',
     },
+
     module: {
         loaders: [
             {
