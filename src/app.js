@@ -10,8 +10,7 @@ import React from 'react';
 import MyComponent from './component.js';
 import ReactDOM from 'react-dom';
 
-
-ReactDOM.render(<MyComponent message="Yo" name="Handsome"/>, document.getElementById('mount-point'));
+ReactDOM.render(<MyComponent message="Hello" name="World"/>, document.getElementById('mount-point'));
 
 
 
